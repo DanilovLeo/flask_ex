@@ -19,7 +19,7 @@ def render_index(image=None):
 
 
 @app.route('/', methods=['GET'])
-def hello_world2():
+def home():
     return render_template("index.html", links=links, image=None)
 
 
